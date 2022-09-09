@@ -6,13 +6,13 @@
 
 /* GENERAl */
 
-h1{
+h1 {
   padding-bottom: 0.5em;
 }
 
 .chat-container {
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* CONTACTS */
@@ -59,7 +59,7 @@ h1{
   padding-right: 1em;
 }
 
-.user-text p{
+.user-text p {
   font-size: small;
   color: #bec1bb;
 }
@@ -72,7 +72,7 @@ h1{
   padding-right: 1em;
 }
 
-.icons{
+.icons {
   display: flex;
   align-items: center;
 }
@@ -97,11 +97,11 @@ h1{
   background-color: #a491d2;
 }
 
-button:hover{
+button:hover {
   opacity: 50%;
 }
 
-button:focus{
+button:focus {
   background-color: #bec1bb;
 }
 
@@ -116,7 +116,7 @@ button:focus{
   text-align: center;
 }
 
-.info h1{
+.info h1 {
   font-size: xx-large;
 }
 
