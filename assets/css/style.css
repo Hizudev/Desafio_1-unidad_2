@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GENERAl */
+
+h1{
+  padding-bottom: 0.5em;
+}
+
+.chat-container {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* CONTACTS */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+}
+.contacts img {
+  border-radius: 50%;
+  border: solid #e8ebe4 2px;
+  max-width: 60px;
+}
+.user-tab {
+  display: flex;
+  padding: 1em 2em 1em 2em;
+  justify-content: space-between;
+  border-top: solid #e8ebe4 2px;
+  border-left: solid #e8ebe4 2px;
+  border-right: solid #e8ebe4 2px;
+}
+
+.contact-tab {
+  display: flex;
+  padding: 1em 2em 1em 2em;
+  border-top: solid #e8ebe4 2px;
+  border-left: solid #e8ebe4 2px;
+  border-right: solid #e8ebe4 2px;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-info img {
+  width: 40px;
+}
+.user-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.user-text p{
+  font-size: small;
+  color: #bec1bb;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  padding-left: 10px;
+  color: #bec1bb;
+}
+
+.buttom-box {
+  display: flex;
+  padding: 2.1em;
+  justify-content: center;
+  border-top: solid #e8ebe4 2px;
+  border-left: solid #e8ebe4 2px;
+  border-right: solid #e8ebe4 2px;
+}
+.buttom-box button {
+  font-size: medium;
+  padding: 1em 3em 1em 3em;
+  color: white;
+  background-color: #a491d2;
+}
+
+button:hover{
+  opacity: 50%;
+}
+
+button:focus{
+  background-color: #bec1bb;
+}
+
+/* INFO */
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 80%;
+  text-align: center;
+}
+
+.info h1{
+  font-size: xx-large;
+}
+
+.info img {
+  max-width: 300px;
+  padding-bottom: 1em;
+}
